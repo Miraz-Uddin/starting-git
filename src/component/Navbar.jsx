@@ -1,11 +1,11 @@
+import { NavLink } from 'react-router-dom';
+
 export default function Navbar() {
 	return (
 		<div className='container mt-2'>
 			<nav className='navbar navbar-expand-lg navbar-light bg-light'>
 				<div className='container-fluid'>
-					<a className='navbar-brand' href='#'>
-						Navbar
-					</a>
+					<NavLink className='navbar-brand'>Navbar</NavLink>
 					<button
 						className='navbar-toggler'
 						type='button'
@@ -22,31 +22,25 @@ export default function Navbar() {
 						id='navbarSupportedContent'
 					>
 						<ul className='navbar-nav ms-auto mb-2 mb-lg-0'>
-							<li className='nav-item'>
-								<a className='nav-link active' aria-current='page' href='#'>
-									Gias
+							<NavLink className='nav-item' to='/giash'>
+								<a className='nav-link ' aria-current='page'>
+									Giash
 								</a>
-							</li>
-							<li className='nav-item'>
-								<a className='nav-link' href='#'>
-									Ruhi
-								</a>
-							</li>
-							<li className='nav-item'>
-								<a className='nav-link' href='#'>
-									Mustakim
-								</a>
-							</li>
-							<li className='nav-item'>
-								<a className='nav-link' href='#'>
-									Rabbi
-								</a>
-							</li>
-							<li className='nav-item'>
-								<a className='nav-link' href='#'>
+							</NavLink>
+							<NavLink className='nav-item' to='/ruhi'>
+								<a className='nav-link'>Ruhi</a>
+							</NavLink>
+							<NavLink className='nav-item' to='/mustakim'>
+								<a className='nav-link'>Mustakim</a>
+							</NavLink>
+							<NavLink className='nav-item' to='/rabbi'>
+								<a className='nav-link'>Rabbi</a>
+							</NavLink>
+							<NavLink className='nav-item'>
+								<a className='nav-link' to='/kawser'>
 									Kawser
 								</a>
-							</li>
+							</NavLink>
 						</ul>
 					</div>
 				</div>
