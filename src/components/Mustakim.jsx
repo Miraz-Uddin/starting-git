@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, ListGroup } from "react-bootstrap";
-const MobinOpinion = () => {
+const Mustakim = () => {
   return (
     <div>
       <Container>
@@ -35,4 +35,4 @@ const MobinOpinion = () => {
   );
 };
 
-export default MobinOpinion;
+export default Mustakim;
