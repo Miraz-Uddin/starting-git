@@ -36,10 +36,8 @@ export default function Navbar() {
 							<NavLink className='nav-item' to='/rabbi'>
 								<a className='nav-link'>Rabbi</a>
 							</NavLink>
-							<NavLink className='nav-item'>
-								<a className='nav-link' to='/kawser'>
-									Kawser
-								</a>
+							<NavLink className='nav-item' to='/kawser'>
+								<a className='nav-link'>Kawser</a>
 							</NavLink>
 						</ul>
 					</div>
