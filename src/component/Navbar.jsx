@@ -23,23 +23,23 @@ export default function Navbar() {
 					>
 						<ul className='navbar-nav ms-auto mb-2 mb-lg-0'>
 							<NavLink className='nav-item' to='/giash'>
-								<a className='nav-link ' aria-current='page'>
+								<span className='nav-link ' aria-current='page'>
 									Giash
-								</a>
+								</span>
 							</NavLink>
 							<NavLink className='nav-item' to='/ruhi'>
-								<a className='nav-link'>Ruhi</a>
+								<span className='nav-link'>Ruhi</span>
 							</NavLink>
 							<NavLink className='nav-item' to='/mustakim'>
-								<a className='nav-link'>Mustakim</a>
+								<span className='nav-link'>Mustakim</span>
 							</NavLink>
 							<NavLink className='nav-item' to='/rabbi'>
-								<a className='nav-link'>Rabbi</a>
+								<span className='nav-link'>Rabbi</span>
 							</NavLink>
 							<NavLink className='nav-item'>
-								<a className='nav-link' to='/kawser'>
+								<span className='nav-link' to='/kawser'>
 									Kawser
-								</a>
+								</span>
 							</NavLink>
 						</ul>
 					</div>
