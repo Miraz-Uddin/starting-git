@@ -36,9 +36,9 @@ export default function Navbar() {
 							<NavLink className='nav-item' to='/rabbi'>
 								<span className='nav-link'>Rabbi</span>
 							</NavLink>
-							<NavLink className='nav-item'>
-								<span className='nav-link' to='/kawser'>
-									Kawser
+							<NavLink className='nav-item' to='/kawsar'>
+								<span className='nav-link'>
+									Kawsar
 								</span>
 							</NavLink>
 						</ul>
